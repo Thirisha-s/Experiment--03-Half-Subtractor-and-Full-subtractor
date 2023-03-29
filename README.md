@@ -30,9 +30,9 @@ Connect the supply (+5V) to the circuit Switch ON the main switch If the output 
 
 ## Program:
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
+```python
 Developed by: s.thirisha
 RegisterNumber:  212222230160
-```python
 ### PROGRAM FOR HALF SUBTRACTOR:
 
 module expthree(a,b,difference,borrow);
@@ -51,7 +51,6 @@ assign difference=(a^b^c);
 assign borrow=(~a&(b^c)|(b&c));
 endmodule
 ```
-
 ## Output:
 # HALF SUBTRACTOR
 # TRUTH TABLE:
@@ -72,7 +71,6 @@ endmodule
 
 ## Timing diagram:
 ![image](https://user-images.githubusercontent.com/120380280/228555461-b13810e7-e44c-4fc8-b6a0-f6310adef643.png)
-
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables is verified using quartus software.
